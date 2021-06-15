@@ -8,6 +8,11 @@ import {
   Typography,
 } from "@material-ui/core";
 
+import CustomTable from "../table/Table";
+import { usersData } from "../users-data";
+
+// All of this pages would go into its own file, I keep them here because they are all the same and small
+
 const useStyles = makeStyles((theme) => ({
   paper: {
     display: "flex",
@@ -55,5 +60,13 @@ export function Reports() {
 }
 
 export function Users() {
-  return <Page title="Users" />;
+  const headCells = [
+    { id: "id", label: "ID" },
+    { id: "first_name", label: "First name" },
+    { id: "last_name", label: "Last name" },
+    { id: "email", label: "Email" },
+    { id: "gender", label: "Gender" },
+  ];
+
+  return <CustomTable data={usersData} headCells={headCells} orderByKey="id" />;
 }
