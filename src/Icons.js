@@ -1,0 +1,13 @@
+export { default as MenuIcon } from "@material-ui/icons/Menu";
+export { default as ChevronLeftIcon } from "@material-ui/icons/ChevronLeft";
+export { default as NotificationsIcon } from "@material-ui/icons/Notifications";
+export { default as DashboardIcon } from "@material-ui/icons/Dashboard";
+export { default as ShoppingCartIcon } from "@material-ui/icons/ShoppingCart";
+export { default as PeopleIcon } from "@material-ui/icons/People";
+export { default as BarChartIcon } from "@material-ui/icons/BarChart";
+export { default as LayersIcon } from "@material-ui/icons/Layers";
+export { default as AssignmentIcon } from "@material-ui/icons/Assignment";
+export { default as TouchAppIcon } from "@material-ui/icons/TouchApp";
+export { default as FolderSpecialIcon } from "@material-ui/icons/FolderSpecial";
+export { default as SettingsIcon } from "@material-ui/icons/Settings";
+export { default as PaymentIcon } from "@material-ui/icons/Payment";
